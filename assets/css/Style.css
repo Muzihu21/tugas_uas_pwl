@@ -1,0 +1,98 @@
+.container1{
+    border-radius: 30px;
+    background-color: rgba(0,0,0,0.4);
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+    padding: 40px 30px;
+}
+.kotak{
+    width: 700px;
+    padding: 40px;
+    background: rgba 0 0 0 0 5;
+    margin: auto;
+    }
+.container1 .login-text {
+    color: white;
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 20px;
+    display: block;
+    text-transform: capitalize;
+}
+.container1 .login-user .input-group {
+    width: 100%;
+    height: 50px; 
+    margin-bottom: 25px;
+}
+.container1 .login-user .input-group input{
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+    padding: 21px 50px;
+    border-radius: 4px;
+    background: transparent;
+    transition: .3s;
+    background: rgba(255, 255, 255, 0.192);
+}
+.container1 .login-email .input-group input:focus, .container1 .login-email .input-group input:valid {
+    border-color: #a29bfe;
+}
+ 
+.container1 .login-user .input-group .btn {
+    color: white;
+    font-size: 1rem;
+    display: block;
+    border-radius: 10px;
+    border-color: rgb(46, 46, 199);
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+    background: #178bf8;
+    text-align: center;
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.container1 .login-user .input-group .btn:hover {
+    transform: translateY(5px);
+    background: transparent;
+    background: #0254a0;
+    padding: 5px 5px;
+
+}
+.input-group i{
+    position: relative;
+}
+
+.input-group i {
+    position: absolute;
+    left: 0;
+    top: 8px;
+    padding: 8px 18px;
+    color: white;
+}
+.text{
+    color: white;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url("https://serikatnews.com/wp-content/uploads/2022/03/8ca7d2b9445a4b81a7cf2ccd59f7d3cd-1920.jpeg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    -webkit-backdrop-filter: blur(100%);
+}
+
+#miniMenuLogin {
+    font-family:sans-serif,Verdana;
+    text-decoration:none;
+    font: bold;
+    display: block;
+    font-size: 14px;
+    margin: .1rem 0 0 auto;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #808080;
+    letter-spacing: .15em
+}
